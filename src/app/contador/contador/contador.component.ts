@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContadorComponent implements OnInit {
 
-   titulo: string = 'Contador App';
+  titulo: string = 'Contador App';
   numero: number = 10;
   base: number = 5;
 

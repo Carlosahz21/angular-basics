@@ -1,0 +1,13 @@
+<h3> Personajes </h3>
+<hr>
+<!-- <ul *ngFor="let p of personajes">  {{ <p class="nombre"></p> }}  </ul> -->
+<table>
+    <tr>
+        <th>Nombre</th>
+        <th>Poder</th>
+    </tr>
+    <tr *ngFor="let p of personajes">
+        <td> {{ p.nombre }} </td>
+        <td> {{ p.poder | number }} </td>
+    </tr>
+</table>
